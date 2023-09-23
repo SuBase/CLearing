@@ -1,3 +1,27 @@
 while（(ch=getchar())!=‘\n’）{
 //清空缓冲池中的字符
 }
+
+strlen()：计算字符串的长度。
+size_t strlen(const char *str);
+
+strcat()：将一个字符串追加到另一个字符串的末尾。
+char *strcat(char *dest, const char *src);
+
+strcmp()：比较两个字符串的大小。
+int strcmp(const char *str1, const char *str2);
+
+strchr()：在字符串中查找指定字符的第一次出现。
+char *strchr(const char *str, int c);
+
+strstr()：在字符串中查找指定子字符串的第一次出现。
+char *strstr(const char *haystack, const char *needle);
+
+strncpy()：将一个字符串的一部分复制到另一个字符串。
+char *strncpy(char *dest, const char *src, size_t n);
+
+strncat()：将一个字符串的一部分追加到另一个字符串的末尾。
+char *strncat(char *dest, const char *src, size_t n);
+
+strncmp()：比较两个字符串的前n个字符。
+int strncmp(const char *str1, const char *str2, size_t n);

@@ -2,6 +2,9 @@ while（(ch=getchar())!=‘\n’）{
 //清空缓冲池中的字符
 }
 
+#include<Windowns.h>
+Sleep(毫秒)//此段停止毫秒
+
 strlen()：计算字符串的长度。
 size_t strlen(const char *str);
 

@@ -1,0 +1,41 @@
+#include<cmath>
+
+数学函数：
+abs(x)：返回x的绝对值。
+acos(x)：返回x的反余弦值。
+asin(x)：返回x的反正弦值。
+atan(x)：返回x的反正切值。
+atan2(y, x)：返回点(x, y)的反正切值。
+ceil(x)：返回不小于x的最小整数。
+cos(x)：返回x的余弦值。
+cosh(x)：返回x的双曲余弦值。
+exp(x)：返回e的x次幂。
+fabs(x)：返回x的绝对值。
+floor(x)：返回不大于x的最大整数。
+fmod(x, y)：返回x除以y的余数。
+frexp(x, int* exp)：将x分解为尾数和指数。
+ldexp(x, int exp)：返回x乘以2的exp次幂。
+log(x)：返回x的自然对数。
+log10(x)：返回以10为底的x的对数。
+modf(x, double* intpart)：将x分解为整数部分和小数部分。
+pow(x, y)：返回x的y次幂。
+sin(x)：返回x的正弦值。
+sinh(x)：返回x的双曲正弦值。
+sqrt(x)：返回x的平方根。
+tan(x)：返回x的正切值。
+tanh(x)：返回x的双曲正切值。
+
+数学常量：
+M_E：自然对数的底e的近似值。
+M_LOG2E：以2为底e的对数的倒数的近似值。
+M_LOG10E：以10为底e的对数的倒数的近似值。
+M_LN2：2的自然对数的近似值。
+M_LN10：10的自然对数的近似值。
+M_PI：圆周率π的近似值。
+M_PI_2：π/2的近似值。
+M_PI_4：π/4的近似值。
+M_1_PI：1/π的近似值。
+M_2_PI：2/π的近似值。
+M_2_SQRTPI：2/√π的近似值。
+M_SQRT2：√2的近似值。
+M_SQRT1_2：1/√2的近似值。

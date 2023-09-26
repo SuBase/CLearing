@@ -29,3 +29,4 @@ FILE * fp=fopen("student.txt","w")          w 打开只写文件，若文件存�
       fseek(fp,需要定位到的第n个，SEEK_SET)             //SEEK_SET 文件开头
                                                            //SEEK_END 文件尾
                                                            //SEEK_CUR 当前位置
+      rewind（fp）                                          //将文件指针指向开头

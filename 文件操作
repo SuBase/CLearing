@@ -26,7 +26,8 @@ FILE * fp=fopen("student.txt","w")          w 打开只写文件，若文件存�
 
 
 文件的定位
-      fseek(fp,需要定位到的第n个，SEEK_SET)             //SEEK_SET 文件开头
+      fseek(fp,需要定位到的第n个，SEEK_SET)                  //SEEK_SET 文件开头   返回值为
                                                            //SEEK_END 文件尾
                                                            //SEEK_CUR 当前位置
       rewind（fp）                                          //将文件指针指向开头
+      ftell(fp)                                             //返回当前文件指针位置

@@ -20,7 +20,7 @@ char *strchr(const char *str, int c);
 strstr()：在字符串中查找指定子字符串的第一次出现。
 char *strstr(const char *haystack, const char *needle);
 
-strncpy()：将一个字符串的一部分复制到另一个字符串。
+strncpy()：将一个字符串scr的一部分复制到另一个字符串dest。
 char *strncpy(char *dest, const char *src, size_t n);
 
 strncat()：将一个字符串的一部分追加到另一个字符串的末尾。
